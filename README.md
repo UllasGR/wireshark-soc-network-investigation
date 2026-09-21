@@ -161,3 +161,10 @@ The subsequent investigation used Ethernet, Windows Browser, Kerberos, and SAMR 
 - Wireshark display filters
 - Host and user identification through network evidence
 - Evidence-based security investigation
+
+---
+
+## 9. Tools Used
+
+- **Wireshark** — Packet capture analysis and network traffic investigation
+- **Malware Traffic Analysis** — Publicly available cybersecurity training PCAP
