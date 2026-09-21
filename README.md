@@ -31,3 +31,15 @@ was the host with the highest observed traffic volume in the capture.
 Based on this observation, I selected `10.2.28.88` as the starting point for the investigation.
 
 ![Endpoint Analysis](ScreenShots/endpoint-analysis.png)
+
+## 2. Identifying the MAC Address
+
+After identifying `10.2.28.88` as the suspicious host, I investigated the Ethernet-level traffic associated with the host to determine its MAC address.
+
+The packet details showed the following Ethernet source address:
+
+`00:19:d1:b2:4d:ad`
+
+This MAC address was associated with the suspicious host `10.2.28.88` in the captured traffic.
+
+![MAC Address Analysis](Screenshots/mac_address-analysis.png)
