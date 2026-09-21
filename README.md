@@ -43,3 +43,19 @@ The packet details showed the following Ethernet source address:
 This MAC address was associated with the suspicious host `10.2.28.88` in the captured traffic.
 
 ![MAC Address Analysis](ScreenShots/mac_address-analysis.png)
+
+## 3. Identifying the Hostname
+
+After identifying the suspicious host and its associated MAC address, I investigated the captured Windows Browser Protocol traffic to determine the hostname of the system.
+
+I used the Wireshark display filter:
+
+`browser.response_computer_name`
+
+The captured traffic revealed the hostname:
+
+`DESKTOP-TEYQ2NR`
+
+This hostname was associated with the suspicious host `10.2.28.88`.
+
+![Hostname Identification](ScreenShots/hostname-identification.png)
