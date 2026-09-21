@@ -59,3 +59,19 @@ The captured traffic revealed the hostname:
 This hostname was associated with the suspicious host `10.2.28.88`.
 
 ![Hostname Identification](ScreenShots/hostname-identification.png)
+
+## 4. Identifying the Windows Username
+
+After identifying the hostname, I investigated Kerberos authentication traffic to determine the Windows user account associated with the suspicious host.
+
+I used the Wireshark display filter:
+
+`kerberos.cname_string == 1`
+
+The captured Kerberos traffic revealed the Windows username:
+
+`brolf`
+
+This username was associated with the suspicious host `10.2.28.88`.
+
+![Username Identification](ScreenShots/username-identification.png)
