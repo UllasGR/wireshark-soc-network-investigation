@@ -75,3 +75,19 @@ The captured Kerberos traffic revealed the Windows username:
 This username was associated with the suspicious host `10.2.28.88`.
 
 ![Username Identification](ScreenShots/username-identification.png)
+
+## 5. Identifying the Full Name
+
+After identifying the Windows username, I investigated SAMR traffic to determine the full name associated with the user account.
+
+I used the Wireshark display filter:
+
+`samr.samr_UserInfo21.full_name`
+
+The captured SAMR response revealed the full name:
+
+`Becka Rolf`
+
+This information was associated with the previously identified Windows username `brolf`.
+
+![Full Name Identification](ScreenShots/user_full-name.png)
