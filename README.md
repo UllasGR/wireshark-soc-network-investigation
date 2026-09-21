@@ -30,4 +30,4 @@ was the host with the highest observed traffic volume in the capture.
 
 Based on this observation, I selected `10.2.28.88` as the starting point for the investigation.
 
-![Endpoint Analysis](screenshots/endpoint-analysis.png)
+![Endpoint Analysis](ScreenShots/endpoint-analysis.png)
