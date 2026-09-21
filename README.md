@@ -168,3 +168,25 @@ The subsequent investigation used Ethernet, Windows Browser, Kerberos, and SAMR 
 
 - **Wireshark** — Packet capture analysis and network traffic investigation
 - **Malware Traffic Analysis** — Publicly available cybersecurity training PCAP
+
+---
+
+## 10. Disclaimer
+
+This investigation was performed using a publicly provided training PCAP from a Malware Traffic Analysis exercise.
+
+The captured traffic represents a training environment and was not captured from my own network.
+
+The information presented in this repository is intended for educational and cybersecurity learning purposes.
+
+---
+
+## Conclusion
+
+This investigation provided practical experience in analyzing network traffic and progressively identifying a suspicious host using packet-level evidence.
+
+Instead of starting with a predefined IP address, I first examined endpoint activity and identified `10.2.28.88` based on its high observed traffic volume.
+
+I then followed the available evidence through multiple protocols and Wireshark fields to identify the associated MAC address, hostname, Windows username, and full name.
+
+This project helped me apply Wireshark beyond individual features and use it as part of a structured network investigation workflow.
