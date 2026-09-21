@@ -124,3 +124,21 @@ SAMR Traffic Analysis
 Full Name Identified
         ↓
 Becka Rolf
+
+---
+
+## 7. Investigation Findings
+
+The investigation produced the following findings from the captured network traffic:
+
+| Investigation Stage | Finding |
+|---|---|
+| Suspicious IP | `10.2.28.88` |
+| MAC Address | `00:19:d1:b2:4d:ad` |
+| Hostname | `DESKTOP-TEYQ2NR` |
+| Windows Username | `brolf` |
+| Full Name | `Becka Rolf` |
+
+The suspicious host was identified by analyzing endpoint activity and selecting the host with the highest observed traffic volume.
+
+The subsequent investigation used Ethernet, Windows Browser, Kerberos, and SAMR traffic to progressively identify the system and associated user information.
