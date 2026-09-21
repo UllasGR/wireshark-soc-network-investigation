@@ -42,4 +42,4 @@ The packet details showed the following Ethernet source address:
 
 This MAC address was associated with the suspicious host `10.2.28.88` in the captured traffic.
 
-![MAC Address Analysis](Screenshots/mac_address-analysis.png)
+![MAC Address Analysis](ScreenShots/mac_address-analysis.png)
