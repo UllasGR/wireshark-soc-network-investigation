@@ -144,3 +144,20 @@ The investigation produced the following findings from the captured network traf
 The suspicious host was identified by analyzing endpoint activity and selecting the host with the highest observed traffic volume.
 
 The subsequent investigation used Ethernet, Windows Browser, Kerberos, and SAMR traffic to progressively identify the system and associated user information.
+
+---
+
+## 8. Skills Demonstrated
+
+- Wireshark packet analysis
+- Network traffic investigation
+- Endpoint statistics analysis
+- Identifying high-traffic network hosts
+- IP address investigation
+- MAC address identification
+- Hostname identification
+- Kerberos traffic analysis
+- SAMR traffic analysis
+- Wireshark display filters
+- Host and user identification through network evidence
+- Evidence-based security investigation
