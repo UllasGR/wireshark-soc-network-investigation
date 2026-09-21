@@ -91,3 +91,36 @@ The captured SAMR response revealed the full name:
 This information was associated with the previously identified Windows username `brolf`.
 
 ![Full Name Identification](ScreenShots/user_full-name.png)
+
+---
+
+## 6. Investigation Evidence Chain
+
+The investigation followed a step-by-step evidence chain, starting from network activity and progressively identifying information about the affected system and user.
+
+```text
+PCAP Traffic Analysis
+        ↓
+High-Traffic Endpoint Identified
+        ↓
+10.2.28.88
+        ↓
+MAC Address Identified
+        ↓
+00:19:d1:b2:4d:ad
+        ↓
+Hostname Identified
+        ↓
+DESKTOP-TEYQ2NR
+        ↓
+Kerberos Traffic Analysis
+        ↓
+User Account Identified
+        ↓
+brolf
+        ↓
+SAMR Traffic Analysis
+        ↓
+Full Name Identified
+        ↓
+Becka Rolf
